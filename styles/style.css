@@ -1,0 +1,102 @@
+html {
+    box-sizing: border-box;
+    background-color: rgb(24, 22, 57);
+    color: white;
+}
+
+
+*, ::before, ::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body img{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* the header of the page  */
+.nav-bar{
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    gap: 10rem;
+    margin-top: 1rem;
+}
+.nav-bar ul{
+    display: flex;
+    gap: 5rem;
+    margin-top: 14px;
+    margin-left: 8rem;
+}
+
+
+/* partie .icone */
+.icone{
+    padding: ;
+    margin-top: 14px;
+    
+}
+
+/* la partir sous nav */
+
+.Creez-votre-propre-t-shirt{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.Creez-votre-propre-t-shirt h1{
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+
+.Creez-votre-propre-t-shirt p{
+    margin-bottom:3rem ;
+    font-size: 20px;
+}
+
+.Creez-votre-propre-t-shirt span{
+    margin-bottom:  3rem;
+}
+.Commencez-concevoir{
+    background-color: blue;
+    height: 3rem;
+    width: 10rem;
+    text-align: center;
+    margin-left: 42rem;
+}
+.Commencez-concevoir span {
+    margin-top: 20rem;
+}
+ 
+
+/* la partir contenu  */
+
+.contenu{
+    display: flex;
+    padding: 50px;
+    margin-left: 9rem;
+    gap: 10rem;
+    text-align: center;
+}
+
+.les_contenaire{
+    background-color: blue;
+
+}
+.les_contenaire ,h2 ,span ,p{
+    padding: 10px;
+}
