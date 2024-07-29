@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background-color: rgb(24, 22, 57);
+    background-color: #000000;
     color: white;
 }
 
@@ -21,6 +21,9 @@ a {
 body img{
     padding: 0px;
     margin: 0px;
+}
+body p{
+    font-size: 20px;
 }
 
 body {
@@ -43,12 +46,26 @@ body {
     margin-left: 8rem;
 }
 
+/* le style des liens */
+:link{
+    color: rgb(238, 242, 246);
+}
+a:visited{
+    color: rgba(251, 248, 248, 0.801) ;
+}
+a:hover{
+    color: #c3ec0a;
+}
+a:active{
+    color: rgb(59, 59, 241);
+}
+
 
 /* partie .icone */
 .icone{
-    padding: ;
+    display: flex;
     margin-top: 14px;
-    
+    gap: 2rem;
 }
 
 /* la partir sous nav */
@@ -56,6 +73,15 @@ body {
 .Creez-votre-propre-t-shirt{
     text-align: center;
     margin-top: 2rem;
+    background-image: url("images/design-studio.png");
+
+        padding: 20px;
+        box-shadow:
+          inset 0 -1em 1em #c3ec0a,
+          0 0 0 2px white,
+          0.3em 0.3em 1em rgba(218, 205, 205, 0.6);
+
+      
 }
 
 .Creez-votre-propre-t-shirt h1{
@@ -72,31 +98,108 @@ body {
     margin-bottom:  3rem;
 }
 .Commencez-concevoir{
-    background-color: blue;
-    height: 3rem;
-    width: 10rem;
+    background-color: #08b5af;
+    height: 4rem;
+    width: 15rem;
     text-align: center;
-    margin-left: 42rem;
+    margin-left: 40rem;
+    border-radius: 10px;
 }
-.Commencez-concevoir span {
-    margin-top: 20rem;
+.Commencez-concevoir a {
+   color: white;
 }
+
  
 
 /* la partir contenu  */
 
-.contenu{
+.contenu {
     display: flex;
     padding: 50px;
-    margin-left: 9rem;
-    gap: 10rem;
+    margin-left: 1rem;
+    gap: 5rem;
     text-align: center;
 }
 
-.les_contenaire{
-    background-color: blue;
-
+.les_contenaire {
+    box-shadow: 10px 5px 5px #c3ec0a;
 }
-.les_contenaire ,h2 ,span ,p{
+
+.les_contenaire ,h2 ,span ,p {
     padding: 10px;
 }
+.les_contenaire img {
+    width: 22rem;
+    height: 25rem;
+    border-radius: 30px;
+}
+
+.title_3 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 1rem;
+    background-color: #08b5af;
+    height: 4rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+
+.les_contenaire a {
+    color: white;
+    margin-top: 5rem;
+}
+.les_contenaire h2 {
+    margin-top: 2rem;
+}
+
+/* <!-- la partir descriptive du site en question  --> */
+.description {
+    display: flex;
+    padding: 60px;
+    gap: 5rem;
+    margin-left: 10rem;
+}
+.description img {
+    width: 30.5rem;
+    height: 40rem;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #c3ec0a;
+}
+.descript {
+    margin-top: 5rem;
+}
+.descript h2 {
+    margin-bottom: 4rem;
+    font-size: 39px;
+}
+
+
+
+/* <!-- le bas de la page  --> */
+.bas_de_page{
+    display: flex;
+    gap: 6rem;
+    padding: 6rem;
+}
+
+.bas h3 {
+    margin-bottom: 2rem;
+}
+
+
+.bas h2 {
+    margin-bottom: 2rem;
+}
+
+
+.bas input {
+    border: none;
+    height: 40px;
+    width: 250px;
+}
+
+.icone_bas{
+    display: flex;
+    gap: 1rem;
+}
+
